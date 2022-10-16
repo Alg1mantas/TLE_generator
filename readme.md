@@ -18,9 +18,9 @@ TLEs are widely used as input for projecting the future orbital tracks of space 
 
 There are two way to get this program:
 
-1. Just download .exe file:
+1. Just download .zip file and extract it:
 
-TODO: link
+https://www.mediafire.com/file/vxuu3upal34ima6/build.zip/file
 
 2. Or just simply type it to your termnal:
 
