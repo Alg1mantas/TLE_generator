@@ -14,27 +14,11 @@ separate text file by double clicking the shortcut of prepared solution or launc
 
 TLEs are widely used as input for projecting the future orbital tracks of space debris for purposes of characterizing "future debris events to support risk analysis, close approach analysis, collision avoidance maneuvering" and forensic analysis.
 
-### Installing
+### Installing by downloading .zip file
 
-There are two way to get this program:
-
-1. Just download .zip file and extract it:
+Just download .zip file and extract it:
 
 https://www.mediafire.com/file/vxuu3upal34ima6/build.zip/file
-
-2. Or just simply type it to your termnal:
-
-```
-git clone git@github.com:Alg1mantas/TLE_generator.git
-```
-
-and also don't forget to install libraries:
-
-```
-pip install -r requirements.txt
-```
-
-### Usage
 
 In order to find .exe file just go to program files directory: build > exe.win-amd64-3.10
 ![My Image](tle_pic/Capture1.PNG)
@@ -48,10 +32,26 @@ Double press on a file with satellite name : "M6P" . Here you will find all TLE 
 
 ![My Image](tle_pic/Capture3.PNG)
 
-If you want to run this program on terminal just simply write to your terminal:
+### Runing program on terminal
+
+Just simply type it to your termnal:
+
+```
+git clone git@github.com:Alg1mantas/TLE_generator.git
+```
+
+and also don't forget to install libraries:
+
+```
+pip install -r requirements.txt
+```
+
+Run the program in terminal:
 
 ```
 py TLE.py
 ```
 
-The output will be the same text files.
+After runnig this command you will find TLE output files in the same directory.
+
+### Have a great fligth!
