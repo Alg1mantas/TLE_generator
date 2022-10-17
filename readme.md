@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Run the program in terminal:
 
 ```
-py TLE.py
+py tle.py
 ```
 
 After runnig this command you will find TLE output files in the same directory.
