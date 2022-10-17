@@ -1,4 +1,3 @@
-import json
 import time
 import os.path
 import logging
@@ -15,13 +14,13 @@ log_file_name = (f"{current_directory_path}\ tle.log")
 
 logging.basicConfig(filename=log_file_name, encoding="UTF-8", level=logging.DEBUG)
 
-def get_data() -> json:
+def get_data() -> tuple:
     satelitte_data = fetch_tle_from_celestrak(M6P_SATELLITE_ID)
     return satelitte_data
 
-def save_data(satellite_data):
-    with open(f"{current_directory_path}\{file_name}", "w") as _:
-        _.write(f"{str(satellite_data[1])}\n{str(satellite_data[2])}")
+def save_data(satellite_data) -> None:
+    with open(f"{current_directory_path}\{file_name}", "w") as text_file:
+        text_file.write(f"{str(satellite_data[1])}\n{str(satellite_data[2])}")
     logging.info(f"Received and saved {SATELLITE_NAME} satellite (TLE) data in '{file_name}' file. ")
 
 
