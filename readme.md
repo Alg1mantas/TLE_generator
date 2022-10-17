@@ -24,7 +24,7 @@ In order to find .exe file just go to program files directory: build > exe.win-a
 ![My Image](tle_pic/Capture1.PNG)
 Press Aplication file (.exe) twice
 
-After a few seconds in the same directory two new text and log files will apear
+After a few seconds in the same directory two new files will apear: TLE data and .log file
 
 ![My Image](tle_pic/Capture2.PNG)
 
