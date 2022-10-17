@@ -1,6 +1,6 @@
 import os
 from unittest import TestCase
-from TLE import save_data, current_directory_path, file_name
+from tle import save_data, current_directory_path, file_name
 
 class TestSatellite(TestCase):
     def test_save_data(self):
